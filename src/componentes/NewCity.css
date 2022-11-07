@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.contentCity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://cdn.wallpapersafari.com/36/80/EKWszP.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+.content-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid 2px rgb(0, 0, 0);
+    box-shadow: 4px 4px 2px rgb(0,0,0);
+    opacity: .9;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+label{
+    text-align: center;
+    font-size: 1.3rem;
+    margin: .4rem;
+    color: black;
+    text-decoration: underline;
+    font-weight: 800;
+}
+input{
+    height: 1.5rem;
+    border-radius: .7rem;
+    text-align: center;
+    margin: .5rem;
+    box-shadow: 3px 4px 4px black;
+}
+.bottom{
+    text-align: center;
+}
+.botom{
+    font-weight: 700;
+    font-size: 1.3rem;
+    height: 2.3rem;
+    width: 6.5rem;
+    border-radius: .5rem;
+    margin: .5rem;
+}
+.botom:hover{
+    color: rgb(22, 93, 104);
+    width: 7.3rem;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 768px){
+    .content-form{
+        width: 18rem;
+    }
+    form{
+        width: 17rem;
+    }
+    input{
+        width: 15rem;
+    }
+}
